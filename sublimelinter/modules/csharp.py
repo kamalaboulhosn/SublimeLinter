@@ -6,7 +6,7 @@ CONFIG = {
     'language': 'csharp',
     'executable': 'mcs',
     'test_existence_args': ['--help'],
-    'lint_args': ['--parse', '{filename}'],
+    'lint_args': ['--parse', '--unsafe', '{filename}'],
     'input_method': INPUT_METHOD_FILE,
 }
 
